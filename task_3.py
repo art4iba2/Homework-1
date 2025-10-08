@@ -17,13 +17,12 @@ def check_exception(array):
             summ += num
 
 
-
-lst = [0,1,2,3,4,5,6,8,9,10,11,12,13,14,15]
 lst1 = [3,5,7,9,-1]
-
+print(f"List consist of: {lst1}")
 try:
     check_exception(lst1)
 except EvenNum:
     print("EvenNum")
 except NegativeNum:
+
     print("NegativeNum")
